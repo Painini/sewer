@@ -1,0 +1,10 @@
+h1 {
+ color: rgb(35, 73, 35);
+ text-shadow: darkslategray;
+ font-size: 75px;
+ text-align: center;
+}
+
+body {
+    background-color: rgb(40, 34, 78);
+}
