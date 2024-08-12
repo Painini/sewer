@@ -6,5 +6,67 @@ h1 {
 }
 
 body {
-    background-color: rgb(40, 34, 78);
+    background-color:gainsboro
+}
+
+.mainHeaderText {
+    text-align: center;
+    color:blanchedalmond;
+    margin-top: 15vh;
+    border-width: 3px;
+    border-style:groove;
+    border-color:blanchedalmond;
+}
+
+.middleText {
+    text-align: center;
+    color:blanchedalmond;
+    margin-top: 15vh;
+}
+
+.TabBar {
+    background-color: rgb(90, 94, 78);
+    height: 80px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.leftSpacer {
+    flex: 1;
+    background-color: rgb(72, 52, 107);
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+.fireGif {
+    margin-top: 50vh;
+}
+.rightSpacer {
+    flex: 1;
+    background-color: rgb(72, 52, 107);
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.text {
+    color:antiquewhite
+}
+.pageContainer {
+    display: flex;
+}
+
+.leftDiv {
+    flex: 2;
+}
+
+.mainDiv {
+    background-color: rgb(72, 52, 107);
+    flex: 6;
+    height: 90vh;
+    margin: 0;
+}
+
+.rightDiv {
+    flex: 2;
 }
