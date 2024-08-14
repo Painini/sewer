@@ -6,41 +6,73 @@ h1 {
 }
 
 body {
-    background-color:gainsboro
+    background-color:rgb(37, 36, 37)
 }
 
 .mainHeaderText {
     text-align: center;
     color:blanchedalmond;
-    margin-top: 15vh;
+    margin-top: 5vh;
     border-width: 6px;
     border-style:groove;
     border-color:blanchedalmond;
 }
 
-.orbContainer {
+.orbOuterContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
+    width: 100%;
 }
+
+.orbContainer, .orbContainerL2, .orbContainerL3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style:groove;
+    padding: 10px;
+}
+
+.orbContainer {
+    border-color:rgb(182, 73, 145);
+    border-width: 10px;
+    border-style:ridge;
+}
+
+.orbContainerL2 {
+    border-color:rgb(73, 62, 226);
+    border-width: 14px;
+    
+}
+
+.orbContainerL3 {
+    border-color:rgb(238, 180, 93);
+    border-width: 12px;
+    border-style:double;
+}
+
 .middleText {
     text-align: center;
     color:blanchedalmond;
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 
 .TabBar {
-    background-color: rgb(90, 94, 78);
+    background-color: rgb(172, 178, 182);
     height: 80px;
     text-align: center;
     align-content: center;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    border-radius: 0%;
     
 }
 
 .leftSpacer {
     flex: 1;
-    background-color: rgb(72, 52, 107);
+    background-color: rgb(107, 89, 139);
     border-top-left-radius: 20%;
 }
 
@@ -49,7 +81,7 @@ body {
 }
 .rightSpacer {
     flex: 1;
-    background-color: rgb(72, 52, 107);
+    background-color: rgb(107, 89, 139);
     border-top-right-radius: 20%;
 }
 
@@ -65,10 +97,11 @@ body {
 }
 
 .mainDiv {
-    background-color: rgb(72, 52, 107);
+    background-color: rgb(107, 89, 139);
     flex: 6;
     height: 90vh;
     margin: 0;
+    min-width: 40%;
 }
 
 .rightDiv {
