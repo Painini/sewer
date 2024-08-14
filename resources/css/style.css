@@ -13,11 +13,17 @@ body {
     text-align: center;
     color:blanchedalmond;
     margin-top: 15vh;
-    border-width: 3px;
+    border-width: 6px;
     border-style:groove;
     border-color:blanchedalmond;
 }
 
+.orbContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 .middleText {
     text-align: center;
     color:blanchedalmond;
