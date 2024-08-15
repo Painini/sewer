@@ -58,6 +58,13 @@ body {
     margin-top: 5vh;
 }
 
+.linkStyling {
+    text-decoration: none;
+    background-color: #bb36f4;
+    padding: 14px 25px;
+    color:black
+}
+
 .TabBar {
     background-color: rgb(172, 178, 182);
     height: 80px;
