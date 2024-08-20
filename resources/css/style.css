@@ -114,3 +114,8 @@ body {
 .rightDiv {
     flex: 2;
 }
+
+.wizardBuns {
+    max-height: 600px;
+    max-width: 600px;
+}
